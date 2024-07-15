@@ -12,10 +12,13 @@ class SrcPage:
 
         sb.click(SourceTabSel.CODE_IB)
         sb.click("//div[@class='CodeMirror-scroll']")
-        sb.execute_script("""
+        sb.execute_script(
+            """
         var editor = document.querySelector('.CodeMirror').CodeMirror;
         editor.setValue(arguments[0]);
-        """, text)
+        """,
+            text,
+        )
 
         sb.click(SourceTabSel.COMMIT_BTN)
         sb.click(SourceTabSel.COMMIT_PANEL_BTN)

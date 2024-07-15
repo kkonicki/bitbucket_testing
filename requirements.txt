@@ -1,5 +1,7 @@
 selenium==4.22.0
 pytest==8.2.2
 seleniumbase==4.28.5
-parameterized
+parameterized~=0.9.0
 requests==2.32.3
+
+assertpy~=1.1

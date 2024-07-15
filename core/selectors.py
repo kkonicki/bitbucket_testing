@@ -32,6 +32,7 @@ class TopPanelSel:
     REPOSITORY_BTN = '//span[text()="Repository"]'
     LOGOUT_BTN = '//span[text()="Log out"]'
 
+
 class RepositoriesSel:
     REPO_A = lambda name: f'//div/h1[text()="{name}"]'
 
