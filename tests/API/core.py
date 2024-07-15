@@ -5,7 +5,8 @@ from functools import cache
 @cache
 def get_api_key():
     # Fill out the key below
-    return "ATBBWkg73cqjpEcqQaTqUwUkCwtcEB6ACA98"
+    key = ''
+    return key
 
 
 @cache
